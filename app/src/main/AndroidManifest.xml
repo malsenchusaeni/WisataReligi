@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.co.malsenchus.rizal.WisataReligi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Wisata Religi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="id.co.malsenchus.rizal.WisataReligi.SplashActivity"
+            android:label="Wisata Religi"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="id.co.malsenchus.rizal.WisataReligi.MainActivity"
+            android:label="Wisata Religi" />
+        <activity
+            android:name="id.co.malsenchus.rizal.WisataReligi.Main3Activity"
+            android:label="Daftar Tempat Wisata" />
+        <activity
+            android:name="id.co.malsenchus.rizal.WisataReligi.DetailWisata"
+            android:label="Detail Tempat Wisata Religi"
+            android:parentActivityName="id.co.malsenchus.rizal.WisataReligi.Main3Activity" />
+        <activity
+            android:name="id.co.malsenchus.rizal.WisataReligi.Profil"
+            android:label="About Profil"></activity>
+
+    </application>
+
+</manifest>
